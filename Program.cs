@@ -1,5 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
+using System;
+
 
 namespace home
 {
@@ -7,6 +8,7 @@ namespace home
     {
         static void Main(string[] args)
         {
+            
             // for (int i = 0; i < 15; i++)
             // {
             //    for (int k = 0; k < i; k++)
@@ -26,18 +28,31 @@ namespace home
 
             //////////////////////////////
 
-            int[] array = new int[] { 3, 55, 4, 34 };
+            int[] array = new int[] { 3, 55, 4, 34,55,23 }; // new int[] обов язково???
+
+            // Index myIndex = new Index(1, true); // Аналогічно нижньому запису (Структура)// Як краще???
+
+            //  Console.WriteLine(array[^1]); // Останній елемент массива
+
+            // F5 - що відбувається?  
+              
+            // Для вилову помилок тільки Try/Catch?
+
+            // Console.WriteLine(array[1..4]); //Вибрати окремі елементи массива
 
             int[] arr1 = { 2, 4, 67, 2, 5, 1, 6, 6, 2, 7, 94, 4, 22 };
             int[] arr = Enumerable.Repeat(4, 8).ToArray();
 
             int[] res2 = arr1.OrderBy(i => i).ToArray();  //i => i?? Стрілочна функція? //Сортування масива
 
-            Console.WriteLine(res2);
+            // Console.WriteLine(res2);
 
             int[] res = arr1.Distinct().ToArray(); //<< toarray? // Унікальні елементи
 
-            Console.WriteLine(res); //<<Вивести цілий массив як без цикла?
+            // Console.WriteLine(res); //<<Вивести цілий массив як без цикла?
+
+            // int st = Array.Find(arr1, i => i < 70);
+            // Console.WriteLine(st);
 
             // Console.WriteLine(arr);  <<Вивести цілий массив як без цикла?
 
@@ -105,8 +120,31 @@ namespace home
             // }
             // Console.WriteLine(minValue);
 
+            //////////////////////////////////
 
 
+            // int[,] newArr =
+            // {
+            //     {12,4,5,2},
+            //     {234,5,1,5},
+            //     {39,5,21,4}
+            // };
+
+            // for (int i = 0; i < newArr.GetLength(0); i++)
+            // {
+            //     for (int j = 0; j < newArr.GetLength(1); j++)
+            //     {
+            //         Console.Write(newArr[i,j] + "  ");
+            //     }
+            //     Console.WriteLine();
+            // }
+            
+
+            Random random = new Random();
+
+            int newStr = random.Next(100);
+
+            Console.WriteLine(newStr);
 
         }
     }
