@@ -1,0 +1,16 @@
+/home/vitaliy/home/bin/Debug/net5.0/home
+/home/vitaliy/home/bin/Debug/net5.0/home.deps.json
+/home/vitaliy/home/bin/Debug/net5.0/home.runtimeconfig.json
+/home/vitaliy/home/bin/Debug/net5.0/home.runtimeconfig.dev.json
+/home/vitaliy/home/bin/Debug/net5.0/home.dll
+/home/vitaliy/home/bin/Debug/net5.0/ref/home.dll
+/home/vitaliy/home/bin/Debug/net5.0/home.pdb
+/home/vitaliy/home/obj/Debug/net5.0/home.csprojAssemblyReference.cache
+/home/vitaliy/home/obj/Debug/net5.0/home.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitaliy/home/obj/Debug/net5.0/home.AssemblyInfoInputs.cache
+/home/vitaliy/home/obj/Debug/net5.0/home.AssemblyInfo.cs
+/home/vitaliy/home/obj/Debug/net5.0/home.csproj.CoreCompileInputs.cache
+/home/vitaliy/home/obj/Debug/net5.0/home.dll
+/home/vitaliy/home/obj/Debug/net5.0/ref/home.dll
+/home/vitaliy/home/obj/Debug/net5.0/home.pdb
+/home/vitaliy/home/obj/Debug/net5.0/home.genruntimeconfig.cache
